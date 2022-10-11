@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ranja/Libraries.sol": "Array"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ranja/Libraries.sol": {
+			"keccak256": "0x4dee8948189997d3e19bc078bedd04e2645c509eaa9f0902291f750cf6e4f100",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a41c7c95d5cb0a734380f126be695c5f263b8928c58376c161d4b4bc17f7a2c7",
+				"dweb:/ipfs/QmPhSxUmuaSDYMVGbvrTjjeq7cGDVsExCxVjcRnMdNbxtF"
+			]
+		}
+	},
+	"version": 1
+}
