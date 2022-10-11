@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ranja/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ranja/SimpleStorage.sol": {
+			"keccak256": "0xbf72872b12c718ffd388057c27e7e96b728203d4baa32053630b469bd5c1fb77",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://89e4ed2929341835fbcf37572bc8f7ec305f0112f5599cd2c43618d758ee6592",
+				"dweb:/ipfs/QmRHQgVmtHcEAw9ENLJaYXSZncf7skyuccM7LMLFbLMFAf"
+			]
+		},
+		"ranja/StorageFactory.sol": {
+			"keccak256": "0x4f5e0f72e7949bec43d4a4d43e673ee4077d03ff0011ae4d2638a795bcc5fdd0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5fea90cc65c0334c48ce56112bf74ef05bad616a8da9a54fe44ac5d603a839bf",
+				"dweb:/ipfs/QmUr77tuipnGE3gwvA1sgcWUrKLv5rRyHu6wx4eD1ZWfcp"
+			]
+		}
+	},
+	"version": 1
+}
