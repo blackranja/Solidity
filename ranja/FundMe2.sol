@@ -6,7 +6,7 @@ pragma solidity ^0.8.8;
 
 
 contract FundMe{
-    uint256 public minimumUSD = 50 * 1e18;
+    uint256 public minimumUSD = 50 * 1e10;
     address[] public funders;
     mapping(address => uint256) public addressToAmoutFunded;
     ////GoerliEth/USD Address::0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e
