@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmoutFunded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "fund",
 				"outputs": [],
@@ -13,10 +32,54 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "funders",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "getConversionRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getPrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -34,7 +97,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "minimumUsd",
+				"name": "minimumUSD",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -59,7 +122,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ranja/FundMe.sol": "FundMe"
+			"ranja/FundMe2.sol": "FundMe"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -81,11 +144,12 @@
 				"dweb:/ipfs/QmeZUVwd26LzK4Mfp8Zba5JbQNkZFfTzFu1A6FVMMZDg9c"
 			]
 		},
-		"ranja/FundMe.sol": {
-			"keccak256": "0x14135659414bb9b30383956eced5cf0601d1c9ea669dbcf7fb085fe47b3f6675",
+		"ranja/FundMe2.sol": {
+			"keccak256": "0xa25996b1cd52067185ba4b166a1304d5bc2acf8a69f4fcf924474c9f93b4f06c",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://34ed22498cc107585849fce5e59208e1422b78df6a9b371cf4e5177c14472697",
-				"dweb:/ipfs/QmVRhXDwKhsMohzd6EyfaCCTZ7Q1QybLjaq1DWyVR5LrQQ"
+				"bzz-raw://a63d4d5733dec7ff571d910c40112de959a78be219d9afeabf26693f1d499f3f",
+				"dweb:/ipfs/QmWDurSKQ44KMCRoMvwQPnCUBsq2Eb2WyZWneUYntPg6fR"
 			]
 		}
 	},
